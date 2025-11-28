@@ -1,0 +1,281 @@
+@charset "UTF-8";
+/* CSS Document */
+
+a{
+  text-decoration: none;
+}
+
+/* Subheading */
+h2 {
+  color: #2800FF;
+}
+
+/* Interactive image */
+.illustration:active {
+  transform: translateY(5px);
+}
+
+/* Button dip
+- Toggling this class on and off will move it down and up again
+- The button transition property above determines the speed of the translate (500ms)
+*/
+.dipped {
+  transform: translateY(5px);
+}
+
+.container-fluid{
+}
+
+.navbar{
+
+}
+
+.navbar-brand{
+
+}
+
+.navbar-brand img{
+
+}
+
+.container{
+}
+
+.nav-item{
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+.header_text{
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+.header_phone{
+  font-family: 'Quicksand', sans-serif;
+}
+
+.featurette_dividers_text{
+  font-family: 'Great Vibes', cursive;
+}
+
+.featurette_cake_pops_text{
+  font-family: 'Quicksand', sans-serif;
+  color: #000000;
+}
+
+.featurette_cake_pops_subtext{
+  font-family: 'Quicksand', sans-serif;
+  color: #5e5e5e;
+}
+
+.featurette_cupcakes_text{
+  font-family: 'Quicksand', sans-serif;
+  color: #000000;
+}
+
+.featurette_cupcakes_subtext{
+  font-family: 'Quicksand', sans-serif;
+  color: #5e5e5e;
+}
+
+.featurette_cakes_text{
+  font-family: 'Quicksand', sans-serif;
+  color: #000000;
+}
+
+.featurette_cakes_subtext{
+  font-family: 'Quicksand', sans-serif;
+  color: #5e5e5e;
+}
+
+.featurette_find_out_more{
+  border: #c480a2 solid 1px;
+  width: 180px;
+  height: 45px;
+}
+
+.featurette_find_out_more:hover{
+  background-color: #c480a2;
+}
+
+.featurette_find_out_more_text{
+  font-family: 'Great Vibes', cursive;
+  color: #c480a2;
+  text-align: center;
+}
+
+
+.featurette_find_out_more_text a{
+  color: #c480a2;
+}
+
+.featurette_find_out_more_text a:hover{
+  color: #FFFFFF;
+}
+
+.sprinkle_city{
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  color: #000000;
+}
+
+.location{
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  color: #5e5e5e;
+}
+
+.phone a{
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  color: #a66083;
+  border-bottom: #df66aa solid 1px;
+  width: 110px;
+}
+
+.email a{
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  color: #a66083;
+  border-bottom: #df66aa solid 1px;
+  width: 230px;
+}
+
+.days{
+  list-style: none;
+}
+
+.days_text{
+  font-family: 'Quicksand', sans-serif;
+  color: #5e5e5e;
+}
+
+.hours{
+  list-style: none;
+}
+
+.hours_text{
+  font-family: 'Quicksand', sans-serif;
+  color: #5e5e5e;
+}
+
+.icon_clear_pink{
+  color: #c480a2;
+}
+
+.copyright{
+  width: 660px;
+}
+
+.copyright_text{
+  font-family: 'Quicksand', sans-serif;
+  color: #5e5e5e;
+}
+
+.menu_headline{
+  font-family: 'Great Vibes', cursive;
+}
+
+.menu_cake_pops{
+  font-family: 'Quicksand', sans-serif;
+  color: #000000;
+}
+
+.menu_cake_pops_subtext{
+  font-family: 'Quicksand', sans-serif;
+  color: #5e5e5e;
+  text-align: left;
+}
+
+.menu_cake_truffles{
+  font-family: 'Quicksand', sans-serif;
+  color: #000000;
+}
+
+.menu_cake_truffles_subtext{
+  font-family: 'Quicksand', sans-serif;
+  color: #5e5e5e;
+  text-align: left;
+}
+
+.menu_price{
+  font-family: 'Quicksand', sans-serif;
+  color: #000000;
+}
+
+.menu_cupcakes{
+  font-family: 'Quicksand', sans-serif;
+  color: #000000;
+}
+
+.menu_cupcakes_subtext{
+  font-family: 'Quicksand', sans-serif;
+  color: #5e5e5e;
+  text-align: left;
+}
+
+.menu_cakes{
+  font-family: 'Quicksand', sans-serif;
+  color: #000000;
+}
+
+.menu_cakes_subtext{
+  font-family: 'Quicksand', sans-serif;
+  color: #5e5e5e;
+  text-align: left;
+}
+
+.menu_french_macarons{
+  font-family: 'Quicksand', sans-serif;
+  color: #000000;
+}
+
+.menu_french_macarons_subtext{
+  font-family: 'Quicksand', sans-serif;
+  color: #5e5e5e;
+  text-align: left;
+}
+
+.photo_gallery_headline{
+  font-family: 'Great Vibes', cursive;
+}
+
+.contact_headline{
+  font-family: 'Great Vibes', cursive;
+}
+
+.form-control{
+  border: none;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.md-form{
+  border: none;
+  border-bottom: #df66aa solid 1px;
+}
+
+.btn{
+  border: #c480a2 solid 1px;
+  width: 100px;
+  height: 45px;
+}
+
+.send_text{
+  font-family: 'Great Vibes', cursive;
+  color: #c480a2;
+  font-size: 20px;
+}
+
+.send_text:hover{
+  color: #FFFFFF;
+}
+
+.btn:hover{
+  background-color: #c480a2;
+}
+
+.contact_subheadline{
+  font-family: 'Quicksand', sans-serif;
+  color: #5e5e5e;
+}
